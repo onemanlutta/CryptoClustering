@@ -7,7 +7,7 @@ This project aims to cluster cryptocurrencies based on their market data using K
 - `Resources/crypto_market_data.csv`: CSV file containing the cryptocurrency market data.
 - `README.md`: Project overview and instructions.
 
-## Steps to Complete the Project
+## Steps to Complete this Project
 
 ### Step 1: Set Up the Repository
 
@@ -15,11 +15,14 @@ This project aims to cluster cryptocurrencies based on their market data using K
 2. Clone the repository to your local machine.
 3. Download the challenge files and move them to your new repository.
 4. Rename the `Crypto_Clustering_starter_code.ipynb` file to `Crypto_Clustering.ipynb`.
-5. Push the changes to GitHub.
 
 ### Step 2: Load and Inspect the Data
 
 1. Load the `crypto_market_data.csv` into a DataFrame.
+
+<img width="998" alt="scaled_DataFrame" src="https://github.com/user-attachments/assets/743e02e7-5796-483f-bf57-0d87ec8ccc30">
+
+
 2. Get the summary statistics.
 3. Plot the data to visualize initial patterns.
 
@@ -33,6 +36,9 @@ This project aims to cluster cryptocurrencies based on their market data using K
 1. Create a list with k values from 1 to 11.
 2. Compute the inertia for each k and store it in a list.
 3. Plot the Elbow curve to identify the optimal value for k.
+   
+![K_value Original Data](https://github.com/user-attachments/assets/6e37170c-c695-4d66-9936-1c969ad8524e)
+
 
 ### Step 5: Cluster Cryptocurrencies Using K-means
 
@@ -40,6 +46,9 @@ This project aims to cluster cryptocurrencies based on their market data using K
 2. Fit the model to the scaled data.
 3. Predict the clusters.
 4. Create a scatter plot to visualize the clusters.
+
+![hvplot_scatter clusters](https://github.com/user-attachments/assets/1ffcc062-ca64-40f0-9c99-0b43040658d7)
+
 
 ### Step 6: Optimize Clusters with Principal Component Analysis
 
@@ -51,6 +60,9 @@ This project aims to cluster cryptocurrencies based on their market data using K
 
 1. Use the elbow method on the PCA data to find the best value for k.
 
+![PCA Elbow](https://github.com/user-attachments/assets/70e5c572-c0e3-4232-8653-3a38fad7ed17)
+
+
 ### Step 8: Cluster Cryptocurrencies with K-means Using the PCA Data
 
 1. Initialize the K-means model with the best value for k.
@@ -61,17 +73,11 @@ This project aims to cluster cryptocurrencies based on their market data using K
 ### Step 9: Visualize and Compare the Results
 
 1. Create composite plots to compare the Elbow curves.
+
+![KMeans Elbow](https://github.com/user-attachments/assets/ce4d4d81-c7c6-4516-8505-501378f8e594)
+
+
 2. Create composite plots to compare the cluster results.
-
-### Step 10: Push the Final Notebook to GitHub
-
-1. Save your notebook.
-2. Push your final changes to GitHub.
-
-### Step 11: Submit the Challenge
-
-1. Save your work.
-2. Submit the link to your GitHub repository.
 
 ## Dependencies
 
